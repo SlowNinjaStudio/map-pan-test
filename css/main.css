@@ -169,6 +169,210 @@ textarea {
   clear: both;
 }
 
+
+body {
+  font-size: 0;
+}
+
+.tile {
+  display: inline-block;
+  height: 128px;
+  width: 128px;
+}
+
+.tile-space-edge-top-left {
+  background: #222034 url("/img/background/tiles/space/space-0-1-edge-top-left.png") no-repeat center;
+}
+.tile-space-edge-top-middle {
+  background: #222034 url("/img/background/tiles/space/space-0-2-edge-top-middle.png") no-repeat center;
+}
+.tile-space-edge-top-right {
+  background: #222034 url("/img/background/tiles/space/space-0-3-edge-top-right.png") no-repeat center;
+}
+
+.tile-space-top-left {
+  background: #222034 url("/img/background/tiles/space/space-1-1-top-left.png") no-repeat center;
+}
+.tile-space-top-middle {
+  background: #222034 url("/img/background/tiles/space/space-1-2-top-middle.png") no-repeat center;
+}
+.tile-space-top-right {
+  background: #222034 url("/img/background/tiles/space/space-1-3-top-right.png") no-repeat center;
+}
+.tile-space-middle-left {
+  background: #222034 url("/img/background/tiles/space/space-2-1-middle-left.png") no-repeat center;
+}
+.tile-space-middle-middle {
+  background: #222034 url("/img/background/tiles/space/space-2-2-middle-middle.png") no-repeat center;
+}
+.tile-space-middle-right {
+  background: #222034 url("/img/background/tiles/space/space-2-3-middle-right.png") no-repeat center;
+}
+.tile-space-bottom-left {
+  background: #222034 url("/img/background/tiles/space/space-3-1-bottom-left.png") no-repeat center;
+}
+.tile-space-bottom-middle {
+  background: #222034 url("/img/background/tiles/space/space-3-2-bottom-middle.png") no-repeat center;
+}
+.tile-space-bottom-right {
+  background: #222034 url("/img/background/tiles/space/space-3-3-bottom-right.png") no-repeat center;
+}
+
+.tile-space-edge-bottom-left {
+  background: #222034 url("/img/background/tiles/space/space-4-1-edge-bottom-left.png") no-repeat center;
+}
+.tile-space-edge-bottom-middle {
+  background: #222034 url("/img/background/tiles/space/space-4-2-edge-bottom-middle.png") no-repeat center;
+}
+.tile-space-edge-bottom-right {
+  background: #222034 url("/img/background/tiles/space/space-4-3-edge-bottom-right.png") no-repeat center;
+}
+
+.tile-sky-edge-top-left {
+  background: url("/img/background/tiles/sky/sky-0-1-edge-top-left.png") no-repeat center;
+}
+.tile-sky-edge-top-middle {
+  background: url("/img/background/tiles/sky/sky-0-2-edge-top-middle.png") no-repeat center;
+}
+.tile-sky-edge-top-right {
+  background: url("/img/background/tiles/sky/sky-0-3-edge-top-right.png") no-repeat center;
+}
+
+.tile-sky-top-left {
+  background: #80B2FF url("/img/background/tiles/sky/sky-1-1-top-left.png") no-repeat center;
+}
+.tile-sky-top-middle {
+  background: #80B2FF url("/img/background/tiles/sky/sky-1-2-top-middle.png") no-repeat center;
+}
+.tile-sky-top-right {
+  background: #80B2FF url("/img/background/tiles/sky/sky-1-3-top-right.png") no-repeat center;
+}
+.tile-sky-middle-left {
+  background: #80B2FF url("/img/background/tiles/sky/sky-2-1-middle-left.png") no-repeat center;
+}
+.tile-sky-middle-middle {
+  background: #80B2FF url("/img/background/tiles/sky/sky-2-2-middle-middle.png") no-repeat center;
+}
+.tile-sky-middle-right {
+  background: #80B2FF url("/img/background/tiles/sky/sky-2-3-middle-right.png") no-repeat center;
+}
+.tile-sky-bottom-left {
+  background: #80B2FF url("/img/background/tiles/sky/sky-3-1-bottom-left.png") no-repeat center;
+}
+.tile-sky-bottom-middle {
+  background: #80B2FF url("/img/background/tiles/sky/sky-3-2-bottom-middle.png") no-repeat center;
+}
+.tile-sky-bottom-right {
+  background: #80B2FF url("/img/background/tiles/sky/sky-3-3-bottom-right.png") no-repeat center;
+}
+
+.tile-sky-edge-bottom-left {
+  background: url("/img/background/tiles/sky/sky-4-1-edge-bottom-left.png") no-repeat center;
+}
+.tile-sky-edge-bottom-middle {
+  background: url("/img/background/tiles/sky/sky-4-2-edge-bottom-middle.png") no-repeat center;
+}
+.tile-sky-edge-bottom-right {
+  background: url("/img/background/tiles/sky/sky-4-3-edge-bottom-right.png") no-repeat center;
+}
+
+.tile-land-edge-top-left {
+  background: url("/img/background/tiles/land/land-0-1-edge-top-left.png") no-repeat center;
+}
+.tile-land-edge-top-middle {
+  background: url("/img/background/tiles/land/land-0-2-edge-top-middle.png") no-repeat center;
+}
+.tile-land-edge-top-right {
+  background: url("/img/background/tiles/land/land-0-3-edge-top-right.png") no-repeat center;
+}
+
+.tile-land-top-left {
+  background: #B3A38C url("/img/background/tiles/land/land-1-1-top-left.png") no-repeat center;
+}
+.tile-land-top-middle {
+  background: #B3A38C url("/img/background/tiles/land/land-1-2-top-middle.png") no-repeat center;
+}
+.tile-land-top-right {
+  background: #B3A38C url("/img/background/tiles/land/land-1-3-top-right.png") no-repeat center;
+}
+.tile-land-middle-left {
+  background: #B3A38C url("/img/background/tiles/land/land-2-1-middle-left.png") no-repeat center;
+}
+.tile-land-middle-middle {
+  background: #B3A38C url("/img/background/tiles/land/land-2-2-middle-middle.png") no-repeat center;
+}
+.tile-land-middle-right {
+  background: #B3A38C url("/img/background/tiles/land/land-2-3-middle-right.png") no-repeat center;
+}
+.tile-land-bottom-left {
+  background: #B3A38C url("/img/background/tiles/land/land-3-1-bottom-left.png") no-repeat center;
+}
+.tile-land-bottom-middle {
+  background: #B3A38C url("/img/background/tiles/land/land-3-2-bottom-middle.png") no-repeat center;
+}
+.tile-land-bottom-right {
+  background: #B3A38C url("/img/background/tiles/land/land-3-3-bottom-right.png") no-repeat center;
+}
+
+.tile-land-edge-bottom-left {
+  background: url("/img/background/tiles/land/land-4-1-edge-bottom-left.png") no-repeat center;
+}
+.tile-land-edge-bottom-middle {
+  background: url("/img/background/tiles/land/land-4-2-edge-bottom-middle.png") no-repeat center;
+}
+.tile-land-edge-bottom-right {
+  background: url("/img/background/tiles/land/land-4-3-edge-bottom-right.png") no-repeat center;
+}
+
+.tile-water-edge-top-left {
+  background: url("/img/background/tiles/water/water-0-1-edge-top-left.png") no-repeat center;
+}
+.tile-water-edge-top-middle {
+  background: url("/img/background/tiles/water/water-0-2-edge-top-middle.png") no-repeat center;
+}
+.tile-water-edge-top-right {
+  background: url("/img/background/tiles/water/water-0-3-edge-top-right.png") no-repeat center;
+}
+
+.tile-water-top-left {
+  background: #408BFF url("/img/background/tiles/water/water-1-1-top-left.png") no-repeat center;
+}
+.tile-water-top-middle {
+  background: #408BFF url("/img/background/tiles/water/water-1-2-top-middle.png") no-repeat center;
+}
+.tile-water-top-right {
+  background: #408BFF url("/img/background/tiles/water/water-1-3-top-right.png") no-repeat center;
+}
+.tile-water-middle-left {
+  background: #408BFF url("/img/background/tiles/water/water-2-1-middle-left.png") no-repeat center;
+}
+.tile-water-middle-middle {
+  background: #408BFF url("/img/background/tiles/water/water-2-2-middle-middle.png") no-repeat center;
+}
+.tile-water-middle-right {
+  background: #408BFF url("/img/background/tiles/water/water-2-3-middle-right.png") no-repeat center;
+}
+.tile-water-bottom-left {
+  background: #408BFF url("/img/background/tiles/water/water-3-1-bottom-left.png") no-repeat center;
+}
+.tile-water-bottom-middle {
+  background: #408BFF url("/img/background/tiles/water/water-3-2-bottom-middle.png") no-repeat center;
+}
+.tile-water-bottom-right {
+  background: #408BFF url("/img/background/tiles/water/water-3-3-bottom-right.png") no-repeat center;
+}
+
+.tile-water-edge-bottom-left {
+  background: url("/img/background/tiles/water/water-4-1-edge-bottom-left.png") no-repeat center;
+}
+.tile-water-edge-bottom-middle {
+  background: url("/img/background/tiles/water/water-4-2-edge-bottom-middle.png") no-repeat center;
+}
+.tile-water-edge-bottom-right {
+  background: url("/img/background/tiles/water/water-4-3-edge-bottom-right.png") no-repeat center;
+}
+
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
