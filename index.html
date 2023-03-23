@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <div>
+  <div id="map">
     <div>
       <div class="tile tile-space-edge-top-left"></div>
       <div class="tile tile-space-edge-top-middle"></div>
@@ -19,7 +20,13 @@
     </div>
 
     <div>
-      <div class="tile tile-space-top-left"></div>
+      <div class="tile tile-space-top-left">
+        <div
+          class="unit unit-command-ship"
+          data-bs-toggle="popover"
+          data-bs-content="Command Ship"
+        ></div>
+      </div>
       <div class="tile tile-space-top-middle"></div>
       <div class="tile tile-space-top-right"></div>
     </div>
@@ -127,6 +134,8 @@
   </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/vendor/popper.min.js"></script>
+  <script src="js/vendor/bootstrap.bundle.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 </body>

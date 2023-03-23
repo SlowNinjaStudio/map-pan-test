@@ -373,6 +373,61 @@ body {
 }
 
 
+.unit {
+  height: 128px;
+  width: 128px;
+}
+
+.unit-command-ship {
+  background: url("/img/units/unit-command-ship.png") no-repeat center;
+}
+.unit-galactic-battleship {
+  background: url("/img/units/unit-space-galactic-battleship.png") no-repeat center;
+}
+.unit-space-frigate {
+  background: url("/img/units/unit-space-space-frigate.png") no-repeat center;
+}
+.unit-star-fighter {
+  background: url("/img/units/unit-space-star-fighter.png") no-repeat center;
+}
+.unit-fighter-jet {
+  background: url("/img/units/unit-sky-fighter-jet.png") no-repeat center;
+}
+.unit-high-altitude-interceptor {
+  background: url("/img/units/unit-sky-high-altitude-interceptor.png") no-repeat center;
+}
+.unit-stealth-bomber {
+  background: url("/img/units/unit-sky-stealth-bomber.png") no-repeat center;
+}
+.unit-artillery {
+  background: url("/img/units/unit-land-artillery.png") no-repeat center;
+}
+.unit-sam-launcher {
+  background: url("/img/units/unit-land-sam-launcher.png") no-repeat center;
+}
+.unit-tank {
+  background: url("/img/units/unit-land-tank.png") no-repeat center;
+}
+.unit-cruiser {
+  background: url("/img/units/unit-water-cruiser.png") no-repeat center;
+}
+.unit-destroyer {
+  background: url("/img/units/unit-water-destroyer.png") no-repeat center;
+}
+.unit-sub {
+  background: url("/img/units/unit-water-sub.png") no-repeat center;
+}
+
+.flipHorizontally {
+  transform: scaleX(-1);
+}
+
+#map {
+  overflow: scroll;
+  white-space: nowrap;
+  /*touch-action: pan-x pan-y;*/
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
