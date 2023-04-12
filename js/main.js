@@ -225,6 +225,23 @@ function assignUnit(unit, slotPosition, flipHorizontally = false) {
   slot.innerHTML = renderUnitHTML(unit, flipHorizontally);
 }
 
+/**
+ * @param {string} unit
+ * @param {string} slotPosition
+ * @param {boolean} flipHorizontally
+ */
+function assignUnitAnimation(unit, slotPosition, flipHorizontally = false) {
+  const slot = document.getElementById(slotPosition);
+  slot.innerHTML = `
+    <div
+      id="${slotPosition}-unit"
+      class="unit ${flipHorizontally ? 'flipHorizontally' : ''}"
+      data-bs-toggle="popover"
+      data-bs-content="${UNITS[unit].NAME}"
+    ></div>
+  `;
+}
+
 renderMap('map');
 
 assignUnit('GALACTIC_BATTLESHIP', 'slot-space-0-0');
@@ -248,9 +265,9 @@ assignUnit('ARTILLERY', 'slot-land-0-0');
 assignUnit('ARTILLERY', 'slot-land-1-0');
 
 assignUnit('ARTILLERY', 'slot-land-0-3');
-assignUnit('TANK', 'slot-land-0-4');
+assignUnitAnimation('TANK', 'slot-land-0-4');
 assignUnit('SAM_LAUNCHER', 'slot-land-1-3');
-assignUnit('TANK', 'slot-land-1-4');
+assignUnitAnimation('TANK', 'slot-land-1-4');
 
 assignUnit('CRUISER', 'slot-water-0-0');
 assignUnit('CRUISER', 'slot-water-1-0');
@@ -289,3 +306,22 @@ popoverTriggerList.map(function (popoverTriggerEl) {
     container: 'body'
   });
 });
+
+const playerTankAttack1 = window.lottie.loadAnimation({
+  container: document.getElementById('slot-land-0-4-unit'), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: '/img/lottie/units/tank/attack/data.json' // the path to the animation json
+});
+const playerTankAttack2 = window.lottie.loadAnimation({
+  container: document.getElementById('slot-land-1-4-unit'), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: false,
+  path: '/img/lottie/units/tank/attack/data.json' // the path to the animation json
+});
+setTimeout(() => {
+  playerTankAttack2.play();
+}, 1000);
+

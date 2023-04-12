@@ -178,6 +178,7 @@ body {
   display: inline-block;
   height: 128px;
   width: 128px;
+  vertical-align: top;
 }
 
 .tile-space-edge-top-left {
